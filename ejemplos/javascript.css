@@ -1,0 +1,50 @@
+pre code {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  display: block;
+  overflow-x: auto;
+  color: #333;
+}
+
+/* Colores para JavaScript */
+pre code .keyword {
+  color: #007acc;
+  font-weight: bold;
+}
+
+pre code .string {
+  color: #009900;
+}
+
+pre code .number {
+  color: #009900;
+}
+
+pre code .comment {
+  color: #888;
+  font-style: italic;
+}
+
+pre code .function {
+  color: #007acc;
+}
+
+pre code .property {
+  color: #009900;
+}
+
+pre code .operator {
+  color: #000;
+}
+
+pre code .punctuation {
+  color: #000;
+}
+
+pre code .variable {
+  color: #007acc;
+}

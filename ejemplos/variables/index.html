@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../javascript.css" />
+    <title>Variables y Constantes</title>
+  </head>
+  <body>
+    <h1>Variables y constantes</h1>
+
+    <main>
+      <article>
+        <h2>Variables</h2>
+
+        <pre><code><span class="keyword">let</span> <span class="variable">nombre</span> = <span class="string">"Ana"</span>;
+<span class="keyword">let</span> <span class="variable">edad</span> = <span class="number">25</span>; 
+<span class="variable">edad</span> = <span class="number">30</span>; <span class="comment">// reasigna permitida</span>
+<span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hola, soy "</span> + <span class="variable">nombre</span> + <span class="string">" y tengo "</span> + <span class="variable">edad</span> + <span class="string">" años"</span>); <span class="comment">// muestra: "Hola, soy Ana y tengo 30 años."</span></code></pre>
+      </article>
+
+      <article>
+        <h2>Constantes</h2>
+
+        <pre><code><span class="keyword">const</span> <span class="variable">TIEMPO_ESPERA</span> = <span class="number">5000</span>; <span class="comment">// no se puede modificar</span>
+<span class="comment">// TIEMPO_ESPERA = 3000 // reasignación no permitida</span>
+<span class="keyword">console</span>.<span class="property">log</span>(<span class="variable">TIEMPO_ESPERA</span>); <span class="comment">// muestra: 5000</span></code></pre>
+      </article>
+    </main>
+  </body>
+
+  <script>
+    /* ----------------- Variables ----------------- */
+    let nombre = "Ana";
+    let edad = 25;
+    edad = 30; // reasigna permitida
+    console.log("Hola, soy " + nombre + " y tengo " + edad + " años."); // muestra: "Hola, soy Ana y tengo 30 años."
+
+    /* ----------------- Constante ----------------- */
+    const TIEMPO_ESPERA = 5000; // no se puede modificar
+    // TIEMPO_ESPERA = 3000 // reasignación no permitida
+    console.log(TIEMPO_ESPERA); // muestra: 5000
+  </script>
+</html><suuuu

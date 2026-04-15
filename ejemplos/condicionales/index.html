@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../javascript.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Condicionales</h1>
+
+    <main>
+      <article>
+        <h2>Condicionales simples</h2>
+
+        <pre><code><span class="keyword">const</span> <span class="variable">edad</span> = <span class="number">17</span>;
+
+<span class="function">if</span> (<span class="variable">edad</span> >= <span class="number">18</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"1. Puedes entrar al cine"</span>);
+}</code></pre>
+      </article>
+
+      <article>
+        <h2>Condicionales con alternativas</h2>
+
+        <pre><code><span class="function">if</span> (<span class="variable">edad</span> >= <span class="number">18</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="number">"2. Puedes entrar al cine"</span>);
+} <span class="function">else</span> {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="number">"2. No puede entrar al cine."</span>);
+}</code></pre>
+      </article>
+
+      <article>
+        <h2>Condicionales múltiples</h2>
+
+        <pre><code><span class="keyword">const</span> <span class="variable">dia</span> = <span class="string">"lunes"</span>;
+
+<span class="function">if</span>( <span class="variable">dia</span> == <span class="string">"lunes"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es lunes"</span>);
+} <span class="function">else if</span> (<span class="variable">dia</span> == <span class="string">"martes"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es martes"</span>);
+} <span class="function">else if</span> (<span class="variable">dia</span> == <span class="string">"miércoles"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es miércoles"</span>);
+} <span class="function">else if</span> (<span class="variable">dia</span> == <span class="string">"jueves"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es jueves"</span>);
+} <span class="function">else if</span> (<span class="variable">dia</span> == <span class="string">"viernes"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es viernes"</span>);
+} <span class="function">else if</span> (<span class="variable">dia</span> == <span class="string">"sábado"</span>) {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es sábado"</span>);
+} <span class="function">else</span> {
+    <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es domingo"</span>);
+}</code></pre>
+      </article>
+
+      <article>
+        <h2>Condicionales simples switch</h2>
+
+        <pre><code><span class="function">switch</span> (<span class="variable">dia</span>) {
+    <span class="function">case</span> <span class="string">"lunes"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es lunes"</span>);
+        <span class="function">break</span>;
+    <span class="function">case</span> <span class="string">"marte"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es martes"</span>);
+        <span class="function">break</span>;
+    <span class="function">case</span> <span class="string">"miércoles"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es miércoles"</span>);
+        <span class="function">break</span>;
+    <span class="function">case</span> <span class="string">"jueves"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es jueves"</span>);
+        <span class="function">break</span>;
+    <span class="function">case</span> <span class="string">"viernes"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es viernes"</span>);
+        <span class="function">break</span>;
+    <span class="function">case</span> <span class="string">"sábado"</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es sábado"</span>);
+        <span class="function">break</span>;
+    <span class="function">default</span>:
+        <span class="keyword">console</span>.<span class="property">log</span>(<span class="string">"Hoy es domingo"</span>);
+        <span class="function">break</span>;
+}</code></pre>
+      </article>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>
